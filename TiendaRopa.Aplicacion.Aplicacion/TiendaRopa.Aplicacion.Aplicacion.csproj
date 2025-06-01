@@ -11,4 +11,10 @@
     <Folder Include="Servicio\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TiendaRopa.Dominio.Modelo\TiendaRopa.Dominio.Modelo.csproj" />
+    <ProjectReference Include="..\TiendaRopa.Dominio.Servicio\TiendaRopa.Dominio.Servicio.csproj" />
+    <ProjectReference Include="..\TiendaRopa.Infraestructura.AccesoDatos\TiendaRopa.Infraestructura.AccesoDatos.csproj" />
+  </ItemGroup>
+
 </Project>
