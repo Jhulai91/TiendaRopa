@@ -10,4 +10,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TiendaRopa.Aplicacion.AplicacionDTO\TiendaRopa.Aplicacion.AplicacionDTO.csproj" />
+    <ProjectReference Include="..\TiendaRopa.Aplicacion.Aplicacion\TiendaRopa.Aplicacion.Aplicacion.csproj" />
+    <ProjectReference Include="..\TiendaRopa.Dominio.Modelo\TiendaRopa.Dominio.Modelo.csproj" />
+    <ProjectReference Include="..\TiendaRopa.Dominio.Servicio\TiendaRopa.Dominio.Servicio.csproj" />
+    <ProjectReference Include="..\TiendaRopa.Infraestructura.AccesoDatos\TiendaRopa.Infraestructura.AccesoDatos.csproj" />
+  </ItemGroup>
+
 </Project>
