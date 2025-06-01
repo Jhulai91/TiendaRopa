@@ -1,0 +1,6 @@
+@TiendaRopa.WS_REST_HostAddress = http://localhost:5155
+
+GET {{TiendaRopa.WS_REST_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
